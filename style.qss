@@ -1,0 +1,23 @@
+QWidget{
+    color: silver;
+    background-color: #302F2F;
+    selection-background-color:#3d8ec9;
+    selection-color: black;
+    background-clip: border;
+    border-image: none;
+    outline: 0;
+}
+QLabel{
+    text-align: left;
+    color: white;
+}
+QPushButton{
+    border:  1px solid #fff;
+    padding : 5px 15px;
+    margin : 5px;
+    border-radius: 5px;
+}
+QPushButton:hover{
+    background : darkred;
+    /* font-weight: bold; */
+}
